@@ -1,0 +1,121 @@
+body{
+  background-color: aliceblue;
+}
+.section
+{
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+  margin-left: 50px;
+  justify-content: center;
+ 
+}
+.d1
+{ 
+  position: relative;
+
+ margin-right: 50px;
+  align-content: center; 
+ /* justify-items: center; */
+ 
+}
+.box{
+  margin: auto;
+  padding: 16px;
+  background-color: white;
+  width: 350px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0;
+}
+h1{
+  color: blue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 0;
+  font-size: 43px;
+
+}
+
+input[type="text"]
+{
+  width: 99%;
+  height: 30px;
+  padding-left: 10px;
+  margin:0 10px 10px 0px;
+  
+  outline-color: blue;
+  border-radius: 4px;
+  border: 1px solid lightgreen;
+
+  
+}
+
+input[type="password"]
+{
+  width: 99%;
+  height: 30px;
+  padding-left: 10px;
+  margin:0 10px 10px 0px;
+  
+  outline-color: blue;
+  border-radius: 4px;
+  border: 1px solid lightgreen;
+
+  
+}
+button
+{
+  width: 100%;
+  background-color: blue;
+  color: white;
+  height: 35px;
+  border-radius: 6px;
+  margin:0 0 10px 0px;
+  border: none;
+}
+.btn
+{
+  width: 55%;
+ display: block;
+ margin: 0 auto;
+  background-color: green;
+  color: white;
+  height: 35px;  
+  border-radius: 6px;
+  border: none;
+
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.d2 p
+{
+  text-align: center;
+}
+.d1 p{
+  margin-top: 0;
+  font-size: 20px;
+}
+@media screen and (max-width : 600px) {
+  body{
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+  }
+  .section {
+      display: flex;
+      flex-direction: column;
+      width: 99%;
+
+  }
+  .d2{
+      width: 100%;
+  }
+  .d1{
+    display: block;
+    margin: auto;
+  }
+  .p1{
+      width: 700px;
+  }
+}
